@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chdnext_greek_support *.css
+recursive-include chdnext_greek_support *.csv
+recursive-include chdnext_greek_support *.html
+recursive-include chdnext_greek_support *.ico
+recursive-include chdnext_greek_support *.js
+recursive-include chdnext_greek_support *.json
+recursive-include chdnext_greek_support *.md
+recursive-include chdnext_greek_support *.png
+recursive-include chdnext_greek_support *.py
+recursive-include chdnext_greek_support *.svg
+recursive-include chdnext_greek_support *.txt
+recursive-exclude chdnext_greek_support *.pyc
